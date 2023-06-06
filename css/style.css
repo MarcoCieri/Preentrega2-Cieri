@@ -1,0 +1,149 @@
+/*
+selector {
+    propiedad: valor;
+}
+*/
+body {
+    background-color: aliceblue;
+}
+    
+a {
+    text-decoration: none;
+    text-decoration-color: blue;
+}
+
+section .articulo h2 {
+    text-align: center;
+}
+
+.tramites {
+    background-color: rgb(237, 234, 234);
+}
+
+main {
+    background-color: rgb(237, 234, 234);
+}
+
+.menu {
+    background-color: rgb(254, 254, 228);
+}
+
+.menu ul li a {
+    text-decoration: none;
+    margin: 30 15px;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+
+.menu ul {
+    margin: 30 800px;
+    display: flex;
+    list-style: none;
+}
+
+main h1 {
+    width: 800px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+h2 {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(237, 234, 234);
+}
+/*
+.tramites {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 450px;
+    font-family: Arial;
+    font-size: 32px;
+    justify-content: center;
+}
+*/
+
+.tramites .strong3 {
+    text-align: center;
+    padding: 10px 10px 10px 150px;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+    margin-left: 100px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.tramites .strong4 {
+    padding: 10px 10px 10px 150px;
+    margin-left: 100px;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.servicios .strong1 {
+    text-align: center;
+    padding: 10px 10px 10px 150px;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+    margin-left: 100px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+
+}
+
+.servicios .strong2 {
+    padding: 10px 10px 10px 150px;
+    margin-left: 100px;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.tramites .strong3 {
+    text-align: center;
+    padding: 10px 300px 10px 90px;
+    display: inline-block;
+    margin-left: 100px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.servicios .strong4 {
+    text-align: center;
+    padding: 10px 10px 10px 150px;
+    display: inline-block;
+    margin-left: 100px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+@media (max-width: 499px) {
+    .menu {
+        display: inline-block;
+        background-color: rgb(237, 234, 234);
+   }
+   .servicios {
+    display: inline-block;
+   }
+
+}
+
+@media (min-width: 400px) {
+    .menu {
+        display: flex;
+        background-color: rgb(254, 254, 228);
+    }
+    
+}
